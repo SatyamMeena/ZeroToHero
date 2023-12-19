@@ -1,4 +1,4 @@
-package Java;
+package Java.BinarySearch;
 
 //https://leetcode.com/problems/split-array-largest-sum/description/
 public class SplitArrayLargestSum {

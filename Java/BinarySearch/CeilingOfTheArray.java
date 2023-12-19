@@ -1,4 +1,4 @@
-package Java;
+package Java.BinarySearch;
 
 public class CeilingOfTheArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java;
+package Java.BinarySearch;
 
 public class AgnosticBinarySearch {
     public static void main(String[] args) {

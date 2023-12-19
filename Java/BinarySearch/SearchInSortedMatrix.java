@@ -1,4 +1,4 @@
-package Java;
+package Java.BinarySearch;
 
 import java.util.Arrays;
 
@@ -18,7 +18,7 @@ public class SearchInSortedMatrix {
                 { 13, 14, 15, 16 }
         };
 
-        int target = 1;
+        int target = 11;
         System.out.println(Arrays.toString(find(arr, target)));
     }
 
