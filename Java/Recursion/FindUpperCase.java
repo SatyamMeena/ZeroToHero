@@ -1,0 +1,7 @@
+
+    /*
+    Input : geeksforgeeKs
+        Output : K
+     */
+
+    
