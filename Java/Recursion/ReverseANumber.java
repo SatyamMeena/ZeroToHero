@@ -3,7 +3,8 @@ package Java.Recursion;
 public class ReverseANumber {
     public static void main(String[] args) {
         // System.out.println(reverse(1842, 0));
-        System.out.println(rev2(1842));
+        // System.out.println(rev2(1842));
+        System.out.println(palindrome(1234321));
     }
 
     // static int reverse(int n, int temp) {
@@ -26,5 +27,9 @@ public class ReverseANumber {
         }
         int rem = n % 10;
         return rem * (int) Math.pow(10, digit - 1) + helper(n / 10, digit - 1);
+    }
+
+    static boolean palindrome(int n) {
+        return n == rev2(n);
     }
 }
